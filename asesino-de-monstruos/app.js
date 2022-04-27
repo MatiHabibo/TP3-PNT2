@@ -89,7 +89,7 @@ new Vue({
             //     esJugador: false,
             //     text: 'El monstruo lastima al jugador en ' + danios
             // });
-            this.registrarEvento(false, 'El monstruo lastima al jugador en ', danios)
+            this.registrarEvento(false, 'El monstruo lastima al jugador en  ', danios)
 
             this.verificarGanador();
         },
