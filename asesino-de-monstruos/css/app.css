@@ -1,0 +1,97 @@
+.text-center {
+    text-align: center;
+}
+
+.curarthbar {
+    width: 80%;
+    height: 40px;
+    background-color: #eee;
+    margin: auto;
+    transition: width 500ms;
+    font-size: 22px;
+}
+
+.controls, .log {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px #ccc;
+}
+
+.turno {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.log ul li {
+    margin: 5px;
+    text-align: right;
+    padding:5px;
+}
+
+.log ul .player-turno {
+    color: #eee;
+    background-color: goldenrod;
+}
+
+.log ul .monster-turno {
+    color: #eee;
+    background-color:rgb(3, 110, 12);
+}
+
+button {
+    font-size: 20px;
+    background-color: #eee;
+    padding: 12px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+}
+
+#empezar-partida {
+    background-color: #aaffb0;
+}
+
+#empezar-partida:hover {
+    background-color: #76ff7e;
+}
+
+#atacar {
+    background-color: #ff7367;
+}
+
+#atacar:hover {
+    background-color: #ff3f43;
+}
+
+#ataque-especial {
+    background-color: #ffaf4f;
+}
+
+#ataque-especial:hover {
+    background-color: #ff9a2b;
+}
+
+#curar {
+    background-color: #aaffb0;
+}
+
+#curar:hover {
+    background-color: #76ff7e;
+}
+
+#rendirse {
+    background-color: #ffffff;
+}
+
+#rendirse:hover {
+    background-color: #c7c7c7;
+}
